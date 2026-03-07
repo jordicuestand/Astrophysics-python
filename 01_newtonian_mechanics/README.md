@@ -1,7 +1,7 @@
-# Mecánica de Newton
+# Newtonian Mechanics
 
-Scripts relacionados con dinámica gravitatoria:
+Scripts related to gravitational dynamics:
 
-- órbitas keplerianas
-- energía orbital
-- velocidad radial de exoplanetas
+- Keplerian orbits
+- orbital energy
+- radial velocity of exoplanets
