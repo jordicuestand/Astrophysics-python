@@ -1,20 +1,18 @@
 # astrofisica-python
-Scripts Python complementarios al libro "Astrofísica - La física del origen, evolución y destino del Universo".
+Python scripts to complement the book "Astrofísica - La física del origen, evolución y destino del Universo" *(Astrophysics - The Physics of the Origin, Evolution, and Destiny of the Universe)*.
 
-Este repositorio contiene pequeños programas en Python que acompañan al libro.
-Los scripts permiten reproducir algunos cálculos y simulaciones presentados en el libro.
-Los materiales se irán añadiendo progresivamente.
+This repository contains small Python programs that accompany the book. The scripts allow you to reproduce some of the calculations and simulations presented in the book. Materials will be added progressively.
 
-## Contenido previsto
-1. Mecánica de Newton
-   - órbitas keplerianas
-   - energía orbital
-   - velocidad radial de exoplanetas
-2. Radiación y física cuántica
-   - espectro de cuerpo negro
-   - ley de Wien
-3. Cosmología
-   - ley de Hubble
-   - evolución del factor de escala
+## Planned content:
+1. Newtonian mechanics
+   - Keplerian orbits
+   - Orbital energy
+   - Radial velocity of exoplanets
+2. Radiation and quantum physics
+   - Blackbody spectrum
+   - Wien's law
+3. Cosmology
+   - Hubble's law
+   - Evolution of the scale factor
 
-Los scripts estarán organizados por temas en diferentes carpetas.
+The scripts will be organized by topic in different folders with their corresponding README files explaining implementation details.
