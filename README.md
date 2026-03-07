@@ -1,4 +1,4 @@
-# astrofisica-python
+# Astrophysics-python
 Python scripts to complement the book "Astrofísica - La física del origen, evolución y destino del Universo" *(Astrophysics - The Physics of the Origin, Evolution, and Destiny of the Universe)*.
 
 This repository contains small Python programs that accompany the book. The scripts allow you to reproduce some of the calculations and simulations presented in the book. Materials will be added progressively.
