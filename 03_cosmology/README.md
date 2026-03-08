@@ -1,23 +1,21 @@
-# Cosmología
+# Cosmology
 
-Esta carpeta contiene scripts relacionados con algunos conceptos fundamentales de cosmología observacional.
+This folder contains scripts related to some fundamental concepts of observational cosmology related to chapters 8, 9, 10 of the book.
 
-Los programas permiten explorar de forma sencilla algunos modelos y relaciones que describen la expansión del universo.
+The programs allow you to easily explore some models and relationships that describe the expansion of the universe.
 
-## Scripts previstos
+## Expected Scripts
 
-- **hubble_law.py**  
-  Representación de la relación entre distancia y velocidad de recesión de las galaxias (ley de Hubble).
+- **hubble_law.py** Representation of the relationship between distance and recession velocity of galaxies (Hubble's Law).
 
-- **scale_factor.py**  
-  Evolución del factor de escala del universo en modelos cosmológicos simplificados.
+- **scale_factor.py** Evolution of the scale factor of the universe in simplified cosmological models.
 
-## Relación con el libro
+## Relationship to the Book
 
-Estos scripts complementan las secciones del libro dedicadas a:
+These scripts complement the sections of the book dedicated to:
 
-- expansión del universo
-- corrimiento al rojo cosmológico
-- modelos cosmológicos básicos
+- expansion of the universe
+- cosmological redshift
+- basic cosmological models
 
-Los programas permiten visualizar y experimentar con algunos de los conceptos matemáticos descritos en el texto.
+The programs allow you to visualize and experiment with some of the mathematical concepts described in the text.
