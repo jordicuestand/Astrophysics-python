@@ -80,4 +80,5 @@ Theoretical parallax (arcsec): 0.1
 Horizontal semi-axis (arcsec): 0.09999950444832925
 Vertical semi-axis (arcsec): 0.07070997743968281
 
+
 ![Stelar parallaxi](images/02_stellar_parallax.png)
