@@ -12,6 +12,7 @@ Simplified model:
 
 The result: the star traces a small apparent ellipse in the sky; the maximum angle is the parallax.
 The simulation numerically reproduces the geometry illustrated in the book (Fig. 19). 
+
 ![Circular orbit](paralaxi.png)
 
 Geometry shown in the book:
@@ -21,3 +22,36 @@ Geometry shown in the book:
   - The small angular displacement measured in the simulation corresponds to the parallax angle 
     𝑝 p shown in the diagram.
   - The apparent path traced by the star on the sky is the parallax ellipse.
+
+# 1. What this script does
+
+
+---
+
+# 2. Requirements
+
+You need Python 3 and the following packages:
+
+numpy
+scipy
+matplotlib
+
+Install them with:
+
+pip install numpy scipy matplotlib
+
+---
+
+# 3. How to run the script
+
+Simply run:
+
+```python two_body.py```
+
+A window will appear showing the computed trajectory.
+
+---
+
+# 4. Parameters you can modify
+
+The most important parameters appear near the beginning of the script.
