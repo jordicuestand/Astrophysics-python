@@ -1,6 +1,6 @@
-# Paral·laxi estel·lar script
+# Parallax estel·lar script
 
-Corresponds to Chapter 2 - Measuring Distances, 2.3.1 Geometric Direct Measurement by Parallax.
+Corresponds to **Chapter 2 - Measuring Distances, 2.3.1 Geometric Direct Measurement by Parallax**.
 
 This is the classic method known for a long time: the star is observed from two different positions on Earth in its orbit, separated by about 6 months, and the apparent displacement of the star relative to the background of much more distant stars (which practically don't move) is measured. From Earth, a nearby star appears to move relative to the distant background, tracing an apparent ellipse over a year: this is the parallax ellipse.
 
