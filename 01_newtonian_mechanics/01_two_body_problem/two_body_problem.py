@@ -22,17 +22,17 @@ R_earth = 6371e3      # m, Earth radius
 # 2. User options
 # ============================================================
 
-orbit_type = "escape"
+orbit_type = "custom"
 # Available options:
 #   "circular"
 #   "elliptical"
 #   "escape"
 #   "custom"
 
-h = 0.001e3  # m, initial altitude above Earth's surface
+h = 100e3  # m, initial altitude above Earth's surface
 
 # Used only if orbit_type == "custom"
-custom_speed_factor = 1.1
+custom_speed_factor = 0.9
 # The custom initial speed will be:
 # v0 = custom_speed_factor * v_circular
 
@@ -53,7 +53,7 @@ v_escape = np.sqrt(2 * mu / r0_norm)
 if orbit_type == "circular":
     speed = v_circular
 elif orbit_type == "elliptical":
-    speed = 0.90 * v_circular
+    speed = 1.2 * v_circular
 elif orbit_type == "escape":
     speed = 1.05 * v_escape
 elif orbit_type == "custom":
@@ -69,6 +69,11 @@ v0 = np.array([0.0, speed])
 # Full initial state vector: [x, y, vx, vy]
 y0 = np.hstack([r0, v0])
 
+# For reduced 2-body problem (rocket mass m ~ 0) 
+# energy and angular momentum are "specific" ones: Joules/kg and (m^2/s) per kg
+specific_energy = 0.5 * np.dot(v0, v0) - mu / r0_norm
+specific_angular_momentum = r0[0] * v0[1] - r0[1] * v0[0]
+eccentricity = np.sqrt(1 + 2 * specific_energy * specific_angular_momentum**2 / mu**2)
 
 # ============================================================
 # 4. Informative output
@@ -94,7 +99,9 @@ print("Specific mechanical energy (J/kg):", specific_energy)
 print("Expected orbit nature:", orbit_nature)
 print("Speed ratio v/v_circular:", speed / v_circular)
 print("Speed ratio v/v_escape:", speed / v_escape)
-
+print("Specific mechanical energy (J/kg):", specific_energy)
+print("Specific angular momentum (m^2/s):", specific_angular_momentum)
+print("Orbital eccentricity:", eccentricity)
 
 # ============================================================
 # 5. Equations of motion
@@ -154,7 +161,7 @@ T_circular = 2 * np.pi * np.sqrt(r0_norm**3 / mu)
 if orbit_type == "escape":
     t_final = 1.5 * T_circular
 else:
-    t_final = 2.0 * T_circular
+    t_final = 3.0 * T_circular
 
 t_span = (0.0, t_final)
 t_eval = np.linspace(t_span[0], t_span[1], 3000)
@@ -170,8 +177,8 @@ sol = solve_ivp(
     y0,
     t_eval=t_eval,
     events=hit_earth_event,
-    rtol=1e-8,
-    atol=1e-10
+    rtol=1e-6,
+    atol=1e-8
 )
 
 if not sol.success:
