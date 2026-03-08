@@ -1,4 +1,4 @@
-**Paral·laxi estel·lar script**
+#Paral·laxi estel·lar script
 
 Corresponds to Chapter 2 - Measuring Distances, 2.3.1 Geometric Direct Measurement by Parallax.
 
