@@ -133,6 +133,19 @@ star_scale = 3.0 * AU   # purely visual compression for plotting
 x_star_plot = star_scale * np.cos(beta)
 z_star_plot = star_scale * np.sin(beta)
 
+# ------------------------------------------------------------
+# Small schematic parallax ellipse around the star (not to scale)
+# ------------------------------------------------------------
+
+ellipse_size = 0.1 * AU  # purely illustrative scale
+
+phi = np.linspace(0, 2*np.pi, 200)
+
+ellipse_x = x_star_plot + ellipse_size * np.cos(phi)
+ellipse_y = z_star_plot + ellipse_size * np.sin(beta) * np.sin(phi)
+
+ax1.plot(ellipse_x / AU, ellipse_y / AU, linestyle=":", linewidth=1.5)
+
 # Earth's orbit in the x-y plane (shown edge-on as x vs y)
 ax1.plot(x_earth / AU, y_earth / AU, label="Earth's orbit")
 ax1.plot(0, 0, "o", label="Sun")
@@ -168,7 +181,13 @@ ax1.legend()
 # Right panel: apparent motion on the sky
 # ------------------------------------------------------------
 
-ax2.plot(xi_arcsec, eta_arcsec, linewidth=2, label="Parallax ellipse")
+ax2.plot(
+    xi_arcsec,
+    eta_arcsec,
+    linestyle="--",
+    linewidth=2,
+    label="Parallax ellipse"
+)
 ax2.plot(xi_arcsec[0], eta_arcsec[0], "o", label="Starting point")
 
 ax2.set_aspect("equal", adjustable="box")
