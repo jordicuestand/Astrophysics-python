@@ -166,6 +166,10 @@ Observe how the trajectory changes. You can also try different altitudes, for ex
 
 ![Escape trajectory](images/01_Escape_Earth_rocket.png)
 
+## Custom trajectory
+
+![Custom trajectory](images/01_Custom_Earth_rocket.png)
+
 ---
 
 # 10. Relation to the book
