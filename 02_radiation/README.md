@@ -1,23 +1,21 @@
-# Radiación y física cuántica
+# Radiation and Quantum Physics
 
-Esta carpeta contiene scripts relacionados con la radiación térmica y algunos conceptos básicos de física cuántica aplicados a la astrofísica.
+This folder contains scripts related to thermal radiation and some basic concepts of quantum physics applied to astrophysics, specifically those from Chapter 4, "From Newton's Gravity to the Birth of Stars."
 
-Estos programas permiten visualizar leyes fundamentales que describen la emisión de radiación por los cuerpos celestes.
+These programs allow you to visualize fundamental laws that describe the emission of radiation by celestial bodies.
 
-## Scripts previstos
+## Included Scripts
 
-- **blackbody_spectrum.py**  
-  Cálculo y representación del espectro de radiación de un cuerpo negro usando la ley de Planck.
+- **blackbody_spectrum.py** Calculation and representation of the radiation spectrum of a blackbody using Planck's law.
 
-- **wien_law.py**  
-  Relación entre la temperatura de un cuerpo negro y la longitud de onda donde la emisión es máxima (ley de desplazamiento de Wien).
+- **wien_law.py** Relationship between the temperature of a blackbody and the wavelength at which emission is maximum (Wien's displacement law).
 
-## Relación con el libro
+## Connection to the Book
 
-Estos scripts acompañan las secciones del libro dedicadas a:
+These scripts accompany the sections of the book dedicated to:
 
-- radiación térmica
-- espectros estelares
-- temperatura efectiva de las estrellas
+- thermal radiation
+- stellar spectra
+- effective temperature of stars
 
-Los programas están pensados como herramientas educativas para reproducir y visualizar los resultados descritos en el texto.
+The programs are intended as educational tools to reproduce and visualize the results described in the text.
