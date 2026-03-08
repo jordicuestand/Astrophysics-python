@@ -75,9 +75,13 @@ I recommend these three:
 The left panel is not to scale, the star is shown much closer than in reality so that the geometry can be visualized.; but it serves very well to visualize the Sun, the Earth's orbit, the star, two lines of sight separated by half a year. The right panel shows the observational physical result: the small parallax ellipse.
 
 Distance to the star (pc): 10.0
+
 Ecliptic latitude beta (deg): 45.0
+
 Theoretical parallax (arcsec): 0.1
+
 Horizontal semi-axis (arcsec): 0.09999950444832925
+
 Vertical semi-axis (arcsec): 0.07070997743968281
 
 
