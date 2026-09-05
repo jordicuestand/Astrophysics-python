@@ -38,35 +38,13 @@ expansion as the scale factor changes.
 
 ## 2. The physical model
 
-For a spatially flat Universe containing radiation, matter and a
-cosmological constant, the script uses the simplified Friedmann equation:
+For a spatially flat Universe containing radiation, matter and a cosmological constant, the script uses the simplified Friedmann equation:
 
-$$
-H^2(a)
-=
-H_0^2
-\left(
-\frac{\Omega_r}{a^4}
-+
-\frac{\Omega_m}{a^3}
-+
-\Omega_\Lambda
-\right)
-$$
+$$ H^2(a) = H_0^2 \left( \frac{\Omega_r}{a^4} + \frac{\Omega_m}{a^3} + \Omega_\Lambda \right) $$
 
 or, equivalently,
 
-$$
-\frac{H(a)}{H_0}
-=
-\sqrt{
-\frac{\Omega_r}{a^4}
-+
-\frac{\Omega_m}{a^3}
-+
-\Omega_\Lambda
-}.
-$$
+$$ \frac{H(a)}{H_0} = \sqrt{\frac{\Omega_r}{a^4} + \frac{\Omega_m}{a^3} + \Omega_\Lambda} $$
 
 The three terms evolve very differently as the Universe expands:
 
