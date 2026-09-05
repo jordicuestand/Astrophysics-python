@@ -4,9 +4,9 @@
 
 This Python experiment illustrates **Hubble's law**, the empirical relation between the distance of a galaxy and its recession velocity:
 
-\[
+$$
 v = H_0 d
-\]
+$$
 
 where:
 
@@ -57,9 +57,9 @@ Each point represents a simulated galaxy.
 
 The general trend follows
 
-\[
+$$
 v = H_0 d
-\]
+$$
 
 but the galaxies do not fall exactly on the line because a random peculiar velocity has been added to each one.
 
@@ -71,9 +71,9 @@ The important point is not that every galaxy follows Hubble's law exactly, but t
 
 For every galaxy, the program calculates
 
-\[
+$$
 \Delta v = v_{\rm observed} - v_{\rm predicted}.
-\]
+$$
 
 The dominant Hubble expansion has therefore been removed.
 
@@ -210,9 +210,9 @@ max_distance = 20.0
 
 At 20 Mpc, Hubble's law predicts only:
 
-\[
+$$
 v = 70 \times 20 = 1400\ {\rm km/s}.
-\]
+$$
 
 A peculiar velocity of a few hundred km/s is therefore a substantial fraction of the cosmological recession velocity.
 
@@ -228,9 +228,9 @@ max_distance = 200.0
 
 At 200 Mpc:
 
-\[
+$$
 v = 70 \times 200 = 14000\ {\rm km/s}.
-\]
+$$
 
 A peculiar velocity of 250 km/s is now relatively small compared with the recession velocity.
 
@@ -254,18 +254,18 @@ It treats the simulated galaxies as if they were observations and estimates \(H_
 
 The fitted model is
 
-\[
+$$
 v = H_{0,\rm fit} d.
-\]
+$$
 
 The line is constrained to pass through the origin, giving the least-squares estimate
 
-\[
+$$
 H_{0,\rm fit}
 =
 \frac{\sum_i d_i v_i}
      {\sum_i d_i^2}.
-\]
+$$
 
 The program prints both the value used to generate the artificial Universe and the value recovered from the simulated observations:
 
@@ -339,21 +339,21 @@ This is particularly interesting when `n_galaxies` is small.
 
 Once \(H_0\) has been estimated, the program calculates the Hubble radius:
 
-\[
+$$
 R_H = \frac{c}{H_0}.
-\]
+$$
 
 For approximately
 
-\[
+$$
 H_0 = 70\ {\rm km\,s^{-1}\,Mpc^{-1}},
-\]
+$$
 
 this gives roughly
 
-\[
+$$
 R_H \approx 4280\ {\rm Mpc},
-\]
+$$
 
 or about 14 billion light-years.
 
@@ -373,21 +373,21 @@ These concepts depend on the expansion history of the Universe.
 
 The program also calculates:
 
-\[
+$$
 t_H = \frac{1}{H_0}.
-\]
+$$
 
 For:
 
-\[
+$$
 H_0 \approx 70\ {\rm km\,s^{-1}\,Mpc^{-1}},
-\]
+$$
 
 the result is approximately:
 
-\[
+$$
 t_H \approx 14\ {\rm billion\ years}.
-\]
+$$
 
 This is remarkably close to the actual age of the Universe.
 
