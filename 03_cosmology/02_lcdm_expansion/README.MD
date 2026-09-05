@@ -347,13 +347,7 @@ Omega_lambda = 0.90
 
 Before running the program, use
 
-$$
-a_{m\Lambda}
-=
-\left(
-\frac{\Omega_m}{\Omega_\Lambda}
-\right)^{1/3}
-$$
+$$ a_{m\Lambda} = \left(\frac{\Omega_m}{\Omega_\Lambda}\right)^{1/3} $$
 
 to predict whether matter–dark-energy equality will move towards a
 larger or smaller scale factor.
