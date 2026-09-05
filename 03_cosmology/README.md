@@ -1,21 +1,43 @@
 # Cosmology
 
-This folder contains scripts related to some fundamental concepts of observational cosmology related to chapters 8, 9, 10 of the book.
+This folder contains Python experiments related to some fundamental
+concepts of cosmology discussed in Chapter 8, **"The Dynamics of the
+Universe"**, of the book.
 
-The programs allow you to easily explore some models and relationships that describe the expansion of the universe.
+The programs allow you to explore some of the relationships and models
+that describe the expansion of the Universe.
 
-## Expected Scripts
+## Experiments
 
-- **hubble_law.py** Representation of the relationship between distance and recession velocity of galaxies (Hubble's Law).
+### 01 — Hubble Law
 
-- **scale_factor.py** Evolution of the scale factor of the universe in simplified cosmological models.
+`01_hubble_law/hubble_law.py`
+
+Explores the relationship between galaxy distance and recession velocity
+described by Hubble's law.
+
+The experiment includes simulated peculiar velocities and shows how the
+global Hubble relation emerges from observational scatter.
+
+### 02 — Lambda-CDM Expansion
+
+`02_lcdm_expansion/lcdm_expansion.py`
+
+Explores the evolution of the expansion rate in a simplified flat
+Lambda-CDM Universe.
+
+The experiment shows the changing contributions of radiation, matter and
+dark energy and allows the user to compare different cosmological models.
 
 ## Relationship to the Book
 
-These scripts complement the sections of the book dedicated to:
+These experiments complement the sections of Chapter 8 dedicated to:
 
-- expansion of the universe
-- cosmological redshift
-- basic cosmological models
+- the expansion of the Universe;
+- Hubble's law and the Hubble parameter;
+- the evolution of the expansion rate;
+- radiation-, matter- and dark-energy-dominated epochs;
+- basic cosmological models.
 
-The programs allow you to visualize and experiment with some of the mathematical concepts described in the text.
+The programs allow you to visualize and experiment with some of the
+mathematical and physical concepts described in the text.
