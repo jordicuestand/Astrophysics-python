@@ -183,25 +183,15 @@ The curves cross at physically meaningful epochs.
 
 Radiation and matter contribute equally when
 
-$$
-\frac{\Omega_r}{a^4}
-=
-\frac{\Omega_m}{a^3}.
-$$
+$$ \frac{\Omega_r}{a^4} = \frac{\Omega_m}{a^3}.$$
 
 Therefore:
 
-$$
-a_{\rm rm}
-=
-\frac{\Omega_r}{\Omega_m}.
-$$
+$$ a_{\rm rm} = \frac{\Omega_r}{\Omega_m}.$$
 
 For the default parameters this occurs at approximately:
 
-$$
-a_{\rm rm}\approx3\times10^{-4}.
-$$
+$$ a_{\rm rm}\approx3\times10^{-4}. $$
 
 Before this value radiation dominates.
 
@@ -213,27 +203,15 @@ After it, matter dominates until much later in cosmic history.
 
 Matter and dark energy contribute equally when:
 
-$$
-\frac{\Omega_m}{a^3}
-=
-\Omega_\Lambda.
-$$
+$$ \frac{\Omega_m}{a^3} = \Omega_\Lambda. $$
 
 Therefore:
 
-$$
-a_{m\Lambda}
-=
-\left(
-\frac{\Omega_m}{\Omega_\Lambda}
-\right)^{1/3}.
-$$
+$$ a_{m\Lambda} = \left(\frac{\Omega_m}{\Omega_\Lambda}\right)^{1/3}.$$
 
 With the default values:
 
-$$
-a_{m\Lambda}\approx0.75.
-$$
+$$ a_{m\Lambda}\approx0.75. $$
 
 Since the present corresponds to \(a=1\), this tells us that the
 transition to dark-energy domination occurred relatively recently in
