@@ -145,7 +145,7 @@ H0 = 73.0
 
 These values approximately illustrate the well-known **Hubble tension** between determinations based on the early Universe and measurements based on the local astronomical distance scale.
 
-This simulation does **not** attempt to resolve that tension. It simply allows the effect of different values of \(H_0\) to be explored.
+This simulation does **not** attempt to resolve that tension. It simply allows the effect of different values of $\(H_0\)$ to be explored.
 
 ---
 
@@ -254,18 +254,13 @@ It treats the simulated galaxies as if they were observations and estimates \(H_
 
 The fitted model is
 
-$$
+$$ 
 v = H_{0,\rm fit} d.
 $$
 
 The line is constrained to pass through the origin, giving the least-squares estimate
 
-$$
-H_{0,\rm fit}
-=
-\frac{\sum_i d_i v_i}
-     {\sum_i d_i^2}.
-$$
+$$ H_{0,\rm fit} = \frac{\sum_i d_i v_i} {\sum_i d_i^2} $$ .
 
 The program prints both the value used to generate the artificial Universe and the value recovered from the simulated observations:
 
