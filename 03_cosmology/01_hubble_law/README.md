@@ -410,8 +410,8 @@ Some useful combinations are:
 | Strong local motions | 70 | 200 | 500 | 50 |
 | Small sample | 70 | 200 | 250 | 10 |
 | Large survey | 70 | 200 | 250 | 500 |
-| Lower \(H_0\) | 67.4 | 200 | 250 | 50 |
-| Higher \(H_0\) | 73 | 200 | 250 | 50 |
+| Lower $\(H_0\)$ | 67.4 | 200 | 250 | 50 |
+| Higher $\(H_0\)$ | 73 | 200 | 250 | 50 |
 
 Do not just look at the fitted line.
 
@@ -419,7 +419,7 @@ For every experiment, compare:
 
 - the scatter in the Hubble diagram;
 - the residual plot;
-- the input and recovered values of \(H_0\);
+- the input and recovered values of $\(H_0\)$;
 - the Hubble radius;
 - the Hubble time.
 
@@ -435,7 +435,7 @@ In particular:
 - peculiar velocities follow a simple Gaussian distribution;
 - observational uncertainties in distance and velocity are ignored;
 - selection effects are ignored;
-- the linear relation \(v=H_0d\) is used;
+- the linear relation $\(v=H_0d\)$ is used;
 - relativistic and high-redshift effects are not included;
 - the evolution of the Hubble parameter with cosmic time is not included.
 
@@ -459,4 +459,4 @@ It provides a computational version of several concepts introduced there:
 - the Hubble time;
 - the observational determination of cosmological parameters.
 
-The next cosmology experiment will go beyond a constant present-day \(H_0\) and explore how the expansion rate changes with the scale factor in the standard \(\Lambda\)CDM cosmological model.
+The next cosmology experiment will go beyond a constant present-day \(H_0\) and explore how the expansion rate changes with the scale factor in the standard $\(\Lambda\)CDM$ cosmological model.
